@@ -54,7 +54,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is David Barrett. I am currently a post doctoral researcher in materials science, with a focus on biological materials. I have previous expeience as CTO of a biomaterials startup, working to transition new technologies from academia to the clinic.
 
-  I have over 9 years of experience in experimental design, <mark>data analysis</mark>, <mark>mathematical modeling<m/ark>, technology and product development; as well as experience developing full stack applications in <mark>Python</mark>, and working with machine learning frameworks including <mark>sklearn</mark>, <mark>PyTorch</mark>, and <mark>Keras</mark>.
+  I have over 9 years of experience in experimental design, <mark>data analysis</mark>, <mark>mathematical modeling</mark>, technology and product development; as well as experience developing full stack applications in <mark>Python</mark>, and working with machine learning frameworks including <mark>sklearn</mark>, <mark>PyTorch</mark>, and <mark>Keras</mark>.
 
   I love using model machine learning approaches to tackle problems as I believe that it is a deeply experimetal science that requires careful consideration throughout its lifecycle, from planning to implementation and deployment. I enjoy turning data into usable insights, and am always looking for opportunities to develop new skills and learn new frameworks and approaches to solving problems.
 
@@ -75,7 +75,7 @@ content:
         description: |
           This is a full stack web application developed to assist members of the Cambridge Centre for Medical Materials (CCMM) in understanding data they gathered during their experiments, and helping them predict how varying their process parameters would affect their final product.
 
-          The site was built in <mark>Python</mark> using a combination of <Flask> and <Dash>. Modeling was performed using <mark>Random Forest regression</mark>. The app uses <Docker> to provide containerisation, and is hosted via <mark>GCP</mark>.
+          The site was built in <mark>Python</mark> using a combination of <Flask> and <Dash>. Modeling was performed using <mark>Random Forest</mark> regression. The app uses <mark>Docker</mark> to provide containerisation, and is hosted via <mark>GCP</mark>.
 
           I particularly enjoyed working with other scientists to understand the data they were collecting and what insights they needed from the final product.
       - layout: top-middle
@@ -109,7 +109,7 @@ content:
       - layout: left
         border: weak
         title: CamRegen Ltd.
-        sub_title: Founder and CTO,
+        sub_title: Founder and CTO
         caption: 2021 - 2023
         description: |
           Co-founded a spin-out company to commercialise medical device technology developed during my PhD studentship and post-doctoral research.
@@ -120,8 +120,8 @@ content:
 
       - layout: left
         border: weak
-        title: Magdalene College, University of Cambridge
-        sub_title: Head of Studies (Materials Science),
+        title: University of Cambridge
+        sub_title: Head of Studies (Materials Science), Magdalene College
         caption: 2019 - 2021
         description: |
           I monitored undergraduate students’ academic progression and provided advice and feedback concerning subject options, work strategies, and career paths, as well as carrying out teaching of undergraduate students studying Materials Science. I also carried out interviews for undergraduate students, as well as speaking with prospective students and parents at open day events.
@@ -129,19 +129,19 @@ content:
   - title: Education
     layout: list
     content:
-        title: Jesus College, University of Cambridge
+      - title: Jesus College, University of Cambridge
         sub_title: PhD Materials Science
         caption: 2009 - 2013
         description: |
           I worked on development of a new technology for manufacturing collagen based medical implants and devices, eventually leading to filing of a patent and formation of a spin-out company. My work included development of protocols, design and construction of new equipment, extensive characterisation using a range of methodologies, and presentation to both other researchers and industrial sponsors.
 
-        title: St Anne's College, University of Oxford
+      - title: St Anne's College, University of Oxford
         sub_title: MEng Materials Science
         caption: 2009 - 2013
         description: |
           I studied materials science in undergraduate, learning a wide base of metallurgy, solid state physics, and materials chemistry. My 4th year project concerned the use of metallofullerences for quantum information processing.
 
-  - title: A Little More About Me
+  - title: Interests
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in materials and data science, I enjoy spending much of my time outdoors. I am currently a competitive powerlifter, a long distance cyclist, and a keen if decidedly amateur rock climber. I love to dabble with a wide range of hobbies, including making my own clothes, playing piano and saxaphone, and reading. Additionally, I speak German to an intermdiate level, and am currently working to improve my fluency.
