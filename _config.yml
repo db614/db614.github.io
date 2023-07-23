@@ -75,7 +75,7 @@ content:
         description: |
           This is a full stack web application developed to assist members of the Cambridge Centre for Medical Materials (CCMM) in understanding data they gathered during their experiments, and helping them predict how varying their process parameters would affect their final product.
 
-          The site was built in <mark>Python</mark> using a combination of <Flask> and <Dash>. Modeling was performed using <mark>Random Forest</mark> regression. The app uses <mark>Docker</mark> to provide containerisation, and is hosted via <mark>GCP</mark>.
+          The site was built in <mark>Python</mark> using a combination of <mark>Flask</mark> and <mark>Dash</mark>. Modeling was performed using <mark>Random Forest</mark> regression. The app uses <mark>Docker</mark> to provide containerisation, and is hosted via <mark>GCP</mark>.
 
           I particularly enjoyed working with other scientists to understand the data they were collecting and what insights they needed from the final product.
       - layout: top-middle
