@@ -106,25 +106,25 @@ content:
 
           I have enjoyed the challenge of having to learn and implement new, highly technical domains rapidly, as well as conscientiously designing and analysing experiments and data.
 
-    - layout: left
-      border: weak
-      title: Founder and CTO, CamRegen Ltd.
-      sub_title:
-      caption: 2021 - 2023
-      description: |
-        Co-founded a spin-out company to commercialise medical device technology developed during my PhD studentship and post-doctoral research.
+      - layout: left
+        border: weak
+        title: CamRegen Ltd.
+        sub_title: Founder and CTO,
+        caption: 2021 - 2023
+        description: |
+          Co-founded a spin-out company to commercialise medical device technology developed during my PhD studentship and post-doctoral research.
 
-        I was in charge of research and development of the product lineup, from product concept to small scale manufacturing, as well as development and presentation of business plans, financial models, product pricing strategies, and pitch decks to investors, shareholders, and board members.
+          I was in charge of research and development of the product lineup, from product concept to small scale manufacturing, as well as development and presentation of business plans, financial models, product pricing strategies, and pitch decks to investors, shareholders, and board members.
 
-        I worked with external contractors and suppliers to deliver information and technology required by the business on time and in budget, and held meetings with regulators to discuss data submissions and regulatory compliance. Additionally, I enjoyed building relationships with end users to better understand their needs and to help us define the user requirements.
+          I worked with external contractors and suppliers to deliver information and technology required by the business on time and in budget, and held meetings with regulators to discuss data submissions and regulatory compliance. Additionally, I enjoyed building relationships with end users to better understand their needs and to help us define the user requirements.
 
-    - layout: left
-      border: weak
-      title: Head of Studies (Materials Science), Magdalene College, University of Cambridge
-      sub_title:
-      caption: 2019 - 2021
-      description: |
-        I monitored undergraduate students’ academic progression and provided advice and feedback concerning subject options, work strategies, and career paths, as well as carrying out teaching of undergraduate students studying Materials Science. I also carried out interviews for undergraduate students, as well as speaking with prospective students and parents at open day events.
+      - layout: left
+        border: weak
+        title: Magdalene College, University of Cambridge
+        sub_title: Head of Studies (Materials Science),
+        caption: 2019 - 2021
+        description: |
+          I monitored undergraduate students’ academic progression and provided advice and feedback concerning subject options, work strategies, and career paths, as well as carrying out teaching of undergraduate students studying Materials Science. I also carried out interviews for undergraduate students, as well as speaking with prospective students and parents at open day events.
 
   - title: Education
     layout: list
