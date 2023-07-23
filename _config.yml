@@ -63,36 +63,32 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-                      # other value (or no value) means no border will be displayed
+        border: weak
         title: CCMM Database
         link: https://github.com/db614/ccmm-scaffold-analyser-website
-#        link_text: Link Text
         additional_links:
           - title:  db614/ccmm-scaffold-analyser-website
             icon: fab fa-github
             url: https://github.com/db614/ccmm-scaffold-analyser-website
         quote: >
           A data analysis and prediction tool for the Cambridge Centre for Medical Materials. Powered by Flask and Dash.
-        description: | # this will include new lines to allow paragraphs
+        description: |
           This is a full stack web application developed to assist members of the Cambridge Centre for Medical Materials (CCMM) in understanding data they gathered during their experiments, and helping them predict how varying their process parameters would affect their final product.
 
           The site was built in <mark>Python</mark> using a combination of <Flask> and <Dash>. Modeling was performed using <mark>Random Forest regression</mark>. The app uses <Docker> to provide containerisation, and is hosted via <mark>GCP</mark>.
 
           I particularly enjoyed working with other scientists to understand the data they were collecting and what insights they needed from the final product.
       - layout: top-middle
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-                      # other value (or no value) means no border will be displayed
+        border: weak
         title: Noisy Student for Painters
         link: https://github.com/db614/noisy-student-painters
-#        link_text: Link Text
         additional_links:
           - title:  db614/noisy-student-painters
             icon: fab fa-github
             url: https://github.com/db614/noisy-student-painters
         quote: >
           An implementation of the "Noisy Student" paper, using PyTorch.
-        description: | # this will include new lines to allow paragraphs
+        description: |
           This is an implementation of the "Noisy Student" paper using <mark>PyTorch</mark>, in which a teacher model is trained on a small quantity of labeled data and is then used to produce pseudolabels for a much larger quantity of unlabeled data. The pseduolabeled data is then perturbed, and used to train a student model, which in turn produces new labels for the data. This process of repeated learning, labeling, and re-learning of perturbed data can be repeated to increase the overall accuracy of the model and improve its performance with new data. In the paper an 88.4% top-1 accuracy accuracy was achieved on ImageNet as well as improvements in robustness benchmarks.
 
   - title: Experience
@@ -103,9 +99,7 @@ content:
         title: University of Cambridge
         sub_title: Post-Doctoral Research Associate
         caption: 2017 - Present
-#        link: Link to company (optional)
-#        quote: >
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Developed and carried out independent research projects, primarily in the area of biomaterials and medical devices, including collaborations with researchers from other institutions. Took projects from initial literature review, through grant applications, to experimental work, data analysis, and conference presentation.
 
           Key activities have included development of Machine Learning models to speed up new technology development; data and statistical analysis; presentation of results to academic and non-academic audiences; co-writing successful grants worth over £300,000; development of Python-based tools and workbooks for a range of data analysis tasks; lead group IT strategy, including procurement, documentation, and day-to-day device management; and mentoring of undergraduate and PhD students throughout their studies.
@@ -115,11 +109,9 @@ content:
     - layout: left
       border: weak
       title: Founder and CTO, CamRegen Ltd.
-#      sub_title: Post-Doctoral Research Associate
+      sub_title:
       caption: 2021 - 2023
-  #        link: Link to company (optional)
-  #        quote: >
-      description: | # this will include new lines to allow paragraphs
+      description: |
         Co-founded a spin-out company to commercialise medical device technology developed during my PhD studentship and post-doctoral research.
 
         I was in charge of research and development of the product lineup, from product concept to small scale manufacturing, as well as development and presentation of business plans, financial models, product pricing strategies, and pitch decks to investors, shareholders, and board members.
@@ -129,31 +121,24 @@ content:
     - layout: left
       border: weak
       title: Head of Studies (Materials Science), Magdalene College, University of Cambridge
-#      sub_title: Post-Doctoral Research Associate
+      sub_title:
       caption: 2019 - 2021
-  #        link: Link to company (optional)
-  #        quote: >
-      description: | # this will include new lines to allow paragraphs
+      description: |
         I monitored undergraduate students’ academic progression and provided advice and feedback concerning subject options, work strategies, and career paths, as well as carrying out teaching of undergraduate students studying Materials Science. I also carried out interviews for undergraduate students, as well as speaking with prospective students and parents at open day events.
 
   - title: Education
     layout: list
     content:
-      - layout: left
         title: Jesus College, University of Cambridge
         sub_title: PhD Materials Science
         caption: 2009 - 2013
-#        quote: >
-#          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
+        description: |
           I worked on development of a new technology for manufacturing collagen based medical implants and devices, eventually leading to filing of a patent and formation of a spin-out company. My work included development of protocols, design and construction of new equipment, extensive characterisation using a range of methodologies, and presentation to both other researchers and industrial sponsors.
 
-      - layout: left
         title: St Anne's College, University of Oxford
         sub_title: MEng Materials Science
         caption: 2009 - 2013
-#        quote: >
-        description: | # this will include new lines to allow paragraphs
+        description: |
           I studied materials science in undergraduate, learning a wide base of metallurgy, solid state physics, and materials chemistry. My 4th year project concerned the use of metallofullerences for quantum information processing.
 
   - title: A Little More About Me
