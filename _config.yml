@@ -50,7 +50,7 @@ linkedin_username: jekyll
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is David Barrett. I am currently a post doctoral researcher in materials science, with a focus on biological materials. I have previous expeience as CTO of a biomaterials startup, working to transition new technologies from academia to the clinic.
 
