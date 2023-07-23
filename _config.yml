@@ -1,0 +1,188 @@
+# Site
+repository: db614/db614.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: David Barrett
+title: Scientist
+email: d.j.barrett3@gmail.com
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
+github_username:  db614
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is David Barrett. I am currently a post doctoral researcher in materials science, with a focus on biological materials. I have previous expeience as CTO of a biomaterials startup, working to transition new technologies from academia to the clinic.
+
+  I have over 9 years of experience in experimental design, <mark>data analysis</mark>, <mark>mathematical modeling<m/ark>, technology and product development; as well as experience developing full stack applications in <mark>Python</mark>, and working with machine learning frameworks including <mark>sklearn</mark>, <mark>PyTorch</mark>, and <mark>Keras</mark>.
+
+  I love using model machine learning approaches to tackle problems as I believe that it is a deeply experimetal science that requires careful consideration throughout its lifecycle, from planning to implementation and deployment. I enjoy turning data into usable insights, and am always looking for opportunities to develop new skills and learn new frameworks and approaches to solving problems.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: CCMM Database
+        link: https://github.com/db614/ccmm-scaffold-analyser-website
+#        link_text: Link Text
+        additional_links:
+          - title:  db614/ccmm-scaffold-analyser-website
+            icon: fab fa-github
+            url: https://github.com/db614/ccmm-scaffold-analyser-website
+        quote: >
+          A data analysis and prediction tool for the Cambridge Centre for Medical Materials. Powered by Flask and Dash.
+        description: | # this will include new lines to allow paragraphs
+          This is a full stack web application developed to assist members of the Cambridge Centre for Medical Materials (CCMM) in understanding data they gathered during their experiments, and helping them predict how varying their process parameters would affect their final product.
+
+          The site was built in <mark>Python</mark> using a combination of <Flask> and <Dash>. Modeling was performed using <mark>Random Forest regression</mark>. The app uses <Docker> to provide containerisation, and is hosted via <mark>GCP</mark>.
+
+          I particularly enjoyed working with other scientists to understand the data they were collecting and what insights they needed from the final product.
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: Noisy Student for Painters
+        link: https://github.com/db614/noisy-student-painters
+#        link_text: Link Text
+        additional_links:
+          - title:  db614/noisy-student-painters
+            icon: fab fa-github
+            url: https://github.com/db614/noisy-student-painters
+        quote: >
+          An implementation of the "Noisy Student" paper, using PyTorch.
+        description: | # this will include new lines to allow paragraphs
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: University of Cambridge
+        sub_title: Post-Doctoral Research Associate
+        caption: 2017 - Present
+#        link: Link to company (optional)
+#        quote: >
+        description: | # this will include new lines to allow paragraphs
+          Developed and carried out independent research projects, primarily in the area of biomaterials and medical devices, including collaborations with researchers from other institutions. Took projects from initial literature review, through grant applications, to experimental work, data analysis, and conference presentation.
+
+          Key activities have included development of Machine Learning models to speed up new technology development; data and statistical analysis; presentation of results to academic and non-academic audiences; co-writing successful grants worth over £300,000; development of Python-based tools and workbooks for a range of data analysis tasks; lead group IT strategy, including procurement, documentation, and day-to-day device management; and mentoring of undergraduate and PhD students throughout their studies.
+
+          I have enjoyed the challenge of having to learn and implement new, highly technical domains rapidly, as well as conscientiously designing and analysing experiments and data.
+
+    - layout: left
+      border: weak
+      title: Founder and CTO, CamRegen Ltd.
+#      sub_title: Post-Doctoral Research Associate
+      caption: 2021 - 2023
+  #        link: Link to company (optional)
+  #        quote: >
+      description: | # this will include new lines to allow paragraphs
+        Co-founded a spin-out company to commercialise medical device technology developed during my PhD studentship and post-doctoral research.
+
+        I was in charge of research and development of the product lineup, from product concept to small scale manufacturing, as well as development and presentation of business plans, financial models, product pricing strategies, and pitch decks to investors, shareholders, and board members.
+
+        I worked with external contractors and suppliers to deliver information and technology required by the business on time and in budget, and held meetings with regulators to discuss data submissions and regulatory compliance. Additionally, I enjoyed building relationships with end users to better understand their needs and to help us define the user requirements.
+
+    - layout: left
+      border: weak
+      title: Head of Studies (Materials Science), Magdalene College, University of Cambridge
+#      sub_title: Post-Doctoral Research Associate
+      caption: 2019 - 2021
+  #        link: Link to company (optional)
+  #        quote: >
+      description: | # this will include new lines to allow paragraphs
+        I monitored undergraduate students’ academic progression and provided advice and feedback concerning subject options, work strategies, and career paths, as well as carrying out teaching of undergraduate students studying Materials Science. I also carried out interviews for undergraduate students, as well as speaking with prospective students and parents at open day events.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Jesus College, University of Cambridge
+        sub_title: PhD Materials Science
+        caption: 2009 - 2013
+#        quote: >
+#          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          I worked on development of a new technology for manufacturing collagen based medical implants and devices, eventually leading to filing of a patent and formation of a spin-out company. My work included development of protocols, design and construction of new equipment, extensive characterisation using a range of methodologies, and presentation to both other researchers and industrial sponsors.
+
+      - layout: left
+        title: St Anne's College, University of Oxford
+        sub_title: MEng Materials Science
+        caption: 2009 - 2013
+#        quote: >
+        description: | # this will include new lines to allow paragraphs
+          I studied materials science in undergraduate, learning a wide base of metallurgy, solid state physics, and materials chemistry. My 4th year project concerned the use of metallofullerences for quantum information processing.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in materials and data science, I enjoy spending much of my time outdoors. I am currently a competitive powerlifter, a long distance cyclist, and a keen if decidedly amateur rock climber. I love to dabble with a wide range of hobbies, including making my own clothes, playing piano and saxaphone, and reading. Additionally, I speak German to an intermdiate level, and am currently working to improve my fluency.
+
+# Footer
+footer_show_references: true
+references_title: References on request
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+#sass:
+#  sass_dir: _sass
+#  style: compressed
+
+#plugins:
+# - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
