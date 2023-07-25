@@ -52,11 +52,11 @@ linkedin_username: jekyll
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is David Barrett. I am currently a post doctoral researcher in materials science, with a focus on biological materials. I have previous expeience as CTO of a biomaterials startup, working to transition new technologies from academia to the clinic.
+  Hi, my name is David Barrett. I am currently a post doctoral researcher in materials science, with a focus on biological materials. I have previous experience as CTO of a biomaterials startup, working to transition new technologies from academia to the clinic.
 
   I have over 9 years of experience in experimental design, <mark>data analysis</mark>, <mark>mathematical modeling</mark>, technology and product development; as well as experience developing full stack applications in <mark>Python</mark>, and working with machine learning frameworks including <mark>sklearn</mark>, <mark>PyTorch</mark>, and <mark>Keras</mark>.
 
-  I love using model machine learning approaches to tackle problems as I believe that it is a deeply experimetal science that requires careful consideration throughout its lifecycle, from planning to implementation and deployment. I enjoy turning data into usable insights, and am always looking for opportunities to develop new skills and learn new frameworks and approaches to solving problems.
+  I love using machine learning approaches to tackle problems, as I believe that data science is a deeply experimental science that requires careful consideration throughout its lifecycle, from planning to implementation and deployment. I enjoy turning data into usable insights, and am always looking for opportunities to develop new skills and learn new frameworks and approaches to solving problems.
 
 content:
   - title: Projects # Title for the section
@@ -89,7 +89,7 @@ content:
         quote: >
           An implementation of the "Noisy Student" paper, using PyTorch.
         description: |
-          This is an implementation of the "Noisy Student" paper using <mark>PyTorch</mark>, in which a teacher model is trained on a small quantity of labeled data and is then used to produce pseudolabels for a much larger quantity of unlabeled data. The pseduolabeled data is then perturbed, and used to train a student model, which in turn produces new labels for the data. This process of repeated learning, labeling, and re-learning of perturbed data can be repeated to increase the overall accuracy of the model and improve its performance with new data. In the paper an 88.4% top-1 accuracy accuracy was achieved on ImageNet as well as improvements in robustness benchmarks.
+          This is an implementation of the "Noisy Student" paper using <mark>PyTorch</mark>, in which a teacher model is trained on a small quantity of labeled data and is then used to produce pseudo-labels for a much larger quantity of unlabeled data. The pseudo-labeled data is then perturbed, and used to train a student model, which in turn produces new labels for the data. This process of repeated learning, labeling, and re-learning of perturbed data can be repeated to increase the overall accuracy of the model and improve its performance with new data. In the paper an 88.4% top-1 accuracy accuracy was achieved on ImageNet as well as improvements in robustness benchmarks.
 
   - title: Experience
     layout: list
@@ -139,12 +139,12 @@ content:
         sub_title: MEng Materials Science
         caption: 2009 - 2013
         description: |
-          I studied materials science in undergraduate, learning a wide base of metallurgy, solid state physics, and materials chemistry. My 4th year project concerned the use of metallofullerences for quantum information processing.
+          I studied materials science in undergraduate, learning a wide base of metallurgy, solid state physics, and materials chemistry. My 4th year project concerned the use of metallofullerenes for quantum information processing.
 
   - title: Interests
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in materials and data science, I enjoy spending much of my time outdoors. I am currently a competitive powerlifter, a long distance cyclist, and a keen if decidedly amateur rock climber. I love to dabble with a wide range of hobbies, including making my own clothes, playing piano and saxaphone, and reading. Additionally, I speak German to an intermdiate level, and am currently working to improve my fluency.
+      Alongside my interests in materials and data science, I enjoy spending much of my time outdoors. I am currently a competitive powerlifter, a long distance cyclist, and a keen if decidedly amateur rock climber. I love to dabble with a wide range of hobbies, including making my own clothes, playing piano and saxophone, and reading. Additionally, I speak German to an intermediate level, and am currently working to improve my fluency.
 
 # Footer
 footer_show_references: true
