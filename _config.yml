@@ -52,9 +52,9 @@ linkedin_username: jekyll
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is David Barrett. I am currently a post doctoral researcher in materials science, with a focus on biological materials. I have previous experience as CTO of a biomaterials startup, working to transition new technologies from academia to the clinic.
+  Hi, my name is David Barrett. I am currently a post doctoral researcher in materials science, with a focus on biological materials. I have previous experience as CTO of a biomaterials startup, working to take new technologies from academia to the clinic.
 
-  I have over 9 years of experience in experimental design, <mark>data analysis</mark>, <mark>mathematical modeling</mark>, technology and product development; as well as experience developing full stack applications in <mark>Python</mark>, and working with machine learning frameworks including <mark>sklearn</mark>, <mark>PyTorch</mark>, and <mark>Keras</mark>.
+  I have over 9 years of experience in <mark>experimental design</mark>, <mark>data analysis</mark>, <mark>mathematical modeling</mark>, technology and product development; as well as experience developing full stack applications in <mark>Python</mark>, and working with machine learning frameworks including <mark>sklearn</mark>, <mark>PyTorch</mark>, and <mark>Keras</mark>.
 
   I love using machine learning approaches to tackle problems, as I believe that data science is a deeply experimental science that requires careful consideration throughout its lifecycle, from planning to implementation and deployment. I enjoy turning data into usable insights, and am always looking for opportunities to develop new skills and learn new frameworks and approaches to solving problems.
 
@@ -100,7 +100,7 @@ content:
         sub_title: Post-Doctoral Research Associate
         caption: 2017 - Present
         description: |
-          Developed and carried out independent research projects, primarily in the area of biomaterials and medical devices, including collaborations with researchers from other institutions. Took projects from initial literature review, through grant applications, to experimental work, data analysis, and conference presentation.
+          Developed and carried out independent research projects, primarily in the area of biomaterials and medical devices, including collaborations with researchers from other institutions. Took projects from initial literature review, through grant applications, to experimental work, data analysis, and conference presentation. I often worked as a "problem-solver", working with other researchers in a wide variety of different research areas to get projects that were encountering issues back on track.
 
           Key activities have included development of Machine Learning models to speed up new technology development; data and statistical analysis; presentation of results to academic and non-academic audiences; co-writing successful grants worth over £300,000; development of Python-based tools and workbooks for a range of data analysis tasks; lead group IT strategy, including procurement, documentation, and day-to-day device management; and mentoring of undergraduate and PhD students throughout their studies.
 
@@ -121,7 +121,7 @@ content:
       - layout: left
         border: weak
         title: University of Cambridge
-        sub_title: Head of Studies (Materials Science), Magdalene College
+        sub_title: Director of Studies (Materials Science), Magdalene College
         caption: 2019 - 2021
         description: |
           I monitored undergraduate students’ academic progression and provided advice and feedback concerning subject options, work strategies, and career paths, as well as carrying out teaching of undergraduate students studying Materials Science. I also carried out interviews for undergraduate students, as well as speaking with prospective students and parents at open day events.
